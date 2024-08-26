@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>你好1，VuePress！</title><meta name="description" content="My first VuePress Site">
+    <link rel="stylesheet" href="/assets/css/styles.101320e7.css">
+    <link rel="preload" href="/assets/js/runtime~app.9cdd1aeb.js" as="script"><link rel="preload" href="/assets/css/styles.101320e7.css" as="style"><link rel="preload" href="/assets/js/178.c06c6792.js" as="script"><link rel="preload" href="/assets/js/app.343aa2c5.js" as="script">
+    <link rel="prefetch" href="/assets/js/guide_前端学习_JavaScript.html.964fd8c3.js" as="script"><link rel="prefetch" href="/assets/js/get-started.html.2b1373ec.js" as="script"><link rel="prefetch" href="/assets/js/index.html.4b057c89.js" as="script"><link rel="prefetch" href="/assets/js/guide_HTML学习_html.html.941ec486.js" as="script"><link rel="prefetch" href="/assets/js/404.html.a432ec6f.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-7a3eca82><main class="page" data-v-7a3eca82><div class="theme-default-content" data-v-7a3eca82><h1 data-v-7a3eca82>404</h1><blockquote data-v-7a3eca82>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-7a3eca82>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script src="/assets/js/runtime~app.9cdd1aeb.js" defer></script><script src="/assets/js/178.c06c6792.js" defer></script><script src="/assets/js/app.343aa2c5.js" defer></script>
+  </body>
+</html>
